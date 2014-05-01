@@ -12,7 +12,7 @@
 
 <%
    // Set refresh, autoload time as 5 seconds
-   response.setIntHeader("Refresh", 5);
+   response.setIntHeader("Refresh", 3);
    // Get current time
    Calendar calendar = new GregorianCalendar();
    String am_pm;
